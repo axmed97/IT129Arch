@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataAccess\Dapper\" />
+    <Folder Include="DataAccess\NHibernate\" />
+  </ItemGroup>
+
 </Project>
